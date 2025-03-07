@@ -17,7 +17,7 @@ if page =="Home":
 	#Profile image
 	uploaded_image = st.file_uploader("Uplaod Profile Picture", type=["jpg","png"])
 	if uploaded_image is not None:
-		st.image(uploaded_image, width=150, caption="Uploaded image")
+		st.image(uploaded_image, width=300, caption="Uploaded image")
 	else:
 		st.image("pic.JPG", width=150, caption="Default image")
 	#Student details (Editable!)
