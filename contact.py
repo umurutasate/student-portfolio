@@ -19,7 +19,7 @@ if page =="Home":
 	if uploaded_image is not None:
 		st.image(uploaded_image, width=150, caption="Uploaded image")
 	else:
-		st.image("pic.JPEG", width=150, caption="Default image")
+		st.image("pic.JPG", width=150, caption="Default image")
 	#Student details (Editable!)
 	name = st.text_input("Name: ", "cecile")
 	location = st.text_input("Location: ", "Musanze,Rwanda")
